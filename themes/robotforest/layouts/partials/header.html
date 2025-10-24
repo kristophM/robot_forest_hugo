@@ -1,0 +1,54 @@
+<header class="site-header">
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="{{ .Site.BaseURL }}" class="logo">
+                    {{ if .Site.Params.logo }}
+                        <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}" class="logo-img">
+                        <span class="logo-text">{{ .Site.Title }}</span>
+                    {{ else }}
+                        <span class="logo-text">{{ .Site.Title }}</span>
+                    {{ end }}
+                </a>
+                
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    {{ range .Site.Menus.main }}
+                        <li class="nav-item">
+                            <a href="{{ .URL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+                
+                <div class="nav-social">
+                    {{ range .Site.Params.social }}
+                        <a href="{{ .url }}" class="social-link" aria-label="{{ .name }}" target="_blank" rel="noopener noreferrer">
+                            {{ partial "icons.html" (dict "icon" .icon) }}
+                        </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    {{ if and .IsHome .Site.Params.hero }}
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                {{ if .Site.Params.hero.title }}
+                    <h1 class="hero-title">{{ .Site.Params.hero.title }}</h1>
+                {{ end }}
+                {{ if .Site.Params.hero.subtitle }}
+                    <p class="hero-subtitle">{{ .Site.Params.hero.subtitle }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</header>
+

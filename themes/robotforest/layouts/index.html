@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+<!-- Latest Blog Posts -->
+<section class="blog-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Latest Posts</h2>
+        </div>
+        <a href="/posts/" class="view-all-link">View all posts →</a>
+        
+        <div class="posts-grid">
+            {{ $pages := where .Site.RegularPages "Type" "in" (slice "posts" "post") }}
+            {{ range first 6 $pages }}
+                <article class="post-card">
+                    {{ if .Params.featured_image }}
+                        <div class="post-image">
+                            <a href="{{ .Permalink }}">
+                                <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+                            </a>
+                        </div>
+                    {{ end }}
+                    
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                                {{ .Date.Format "Jan 2, 2006" }}
+                            </time>
+                            {{ if .Params.tags }}
+                                <span class="post-separator">•</span>
+                                <div class="post-tags">
+                                    {{ range first 2 .Params.tags }}
+                                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">{{ . }}</a>
+                                    {{ end }}
+                                </div>
+                            {{ end }}
+                        </div>
+                        
+                        <h3 class="post-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                        
+                        {{ if .Summary }}
+                            <p class="post-summary">{{ .Summary | truncate 120 }}</p>
+                        {{ end }}
+                        
+                        <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            {{ end }}
+        </div>
+        
+        {{ if gt (len $pages) 6 }}
+            <div class="section-footer">
+                <a href="/posts/" class="view-all-button">View All Posts</a>
+            </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Newsletter Subscription Section -->
+{{ if .Site.Params.newsletter.enabled }}
+<section class="newsletter-section">
+    <div class="container">
+        <div class="newsletter-box">
+            <h2 class="newsletter-title">{{ .Site.Params.newsletter.title | default "Subscribe to Our Newsletter" }}</h2>
+            <p class="newsletter-description">{{ .Site.Params.newsletter.description | default "Get the latest insights on robotics and IoT delivered to your inbox." }}</p>
+            <form class="newsletter-form" action="{{ .Site.Params.newsletter.action }}" method="post" target="_blank">
+                <input type="email" name="email" placeholder="Enter your email" class="newsletter-input" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}
+

@@ -1,3 +1,70 @@
 baseURL = 'https://robotforest.io/'
 languageCode = 'en-us'
 title = 'Robot Forest'
+theme = 'robotforest'
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = 'Expert insights on robotics, IoT, and intelligent automation'
+logo = '/images/logo.png'
+
+# Hero section configuration
+[params.hero]
+title = 'Exploring the Intersection of Robotics and IoT'
+subtitle = 'Professional consulting and thought leadership in robotics, intelligent automation, and connected systems.'
+
+# Newsletter configuration
+[params.newsletter]
+enabled = true
+title = 'Stay Updated'
+description = 'Get the latest insights on robotics and IoT delivered to your inbox.'
+action = 'https://YOUR_NEWSLETTER_SERVICE_URL'
+
+# Social links
+[[params.social]]
+name = 'GitHub'
+icon = 'github'
+url = 'https://github.com/yourusername'
+
+[[params.social]]
+name = 'LinkedIn'
+icon = 'linkedin'
+url = 'https://linkedin.com/in/yourusername'
+
+[[params.social]]
+name = 'Twitter'
+icon = 'twitter'
+url = 'https://twitter.com/yourusername'
+
+[[params.social]]
+name = 'Email'
+icon = 'email'
+url = 'mailto:contact@robotforest.io'
+
+# Main menu
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = 'Blog'
+url = '/posts/'
+weight = 2
+
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 3
+
+[[menu.main]]
+name = 'Consulting'
+url = '/consulting/'
+weight = 4
+
+[[menu.main]]
+name = 'Contact'
+url = '/contact/'
+weight = 5

@@ -6,6 +6,28 @@
     <description>Recent content on Robot Forest</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2024 14:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IoT Security Fundamentals: Protecting Connected Devices</title>
+      <link>http://localhost:1313/posts/iot-security-fundamentals/</link>
+      <pubDate>Tue, 22 Oct 2024 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/iot-security-fundamentals/</guid>
+      <description>&lt;p&gt;Security in IoT and robotics systems is not optional—it&amp;rsquo;s fundamental. As we connect more devices and deploy more autonomous systems, the attack surface grows. Here&amp;rsquo;s what you need to know about securing your IoT deployments.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-iot-security-challenge&#34;&gt;The IoT Security Challenge&lt;/h2&gt;&#xA;&lt;p&gt;IoT devices present unique security challenges:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Often resource-constrained with limited compute power&lt;/li&gt;&#xA;&lt;li&gt;Deployed in physically accessible locations&lt;/li&gt;&#xA;&lt;li&gt;Long operational lifespans requiring extended support&lt;/li&gt;&#xA;&lt;li&gt;Diverse protocols and communication standards&lt;/li&gt;&#xA;&lt;li&gt;Large attack surface across many devices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;core-security-principles&#34;&gt;Core Security Principles&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-secure-by-design&#34;&gt;1. Secure by Design&lt;/h3&gt;&#xA;&lt;p&gt;Security must be built in from the start, not added as an afterthought:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Edge Computing in Robotics: Why Local Processing Matters</title>
+      <link>http://localhost:1313/posts/edge-computing-for-robotics/</link>
+      <pubDate>Sun, 20 Oct 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/edge-computing-for-robotics/</guid>
+      <description>&lt;p&gt;Edge computing has become a crucial architectural pattern in modern robotics systems. Let&amp;rsquo;s explore why processing data locally at the edge is often preferable to cloud-only approaches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-latency-challenge&#34;&gt;The Latency Challenge&lt;/h2&gt;&#xA;&lt;p&gt;For many robotics applications, latency is critical. A manufacturing robot making split-second decisions or an autonomous vehicle navigating traffic cannot afford to wait for round-trip communication to the cloud. Edge computing enables:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Real-time decision making&lt;/li&gt;&#xA;&lt;li&gt;Reduced network dependency&lt;/li&gt;&#xA;&lt;li&gt;Improved system reliability&lt;/li&gt;&#xA;&lt;li&gt;Lower operational costs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;edge-computing-architecture&#34;&gt;Edge Computing Architecture&lt;/h2&gt;&#xA;&lt;p&gt;A typical edge computing architecture for robotics includes:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to Robot Forest</title>
+      <link>http://localhost:1313/posts/welcome-to-robot-forest/</link>
+      <pubDate>Tue, 15 Oct 2024 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/welcome-to-robot-forest/</guid>
+      <description>&lt;p&gt;Welcome to Robot Forest! This platform is dedicated to exploring the fascinating intersection of robotics, IoT, and intelligent automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-robot-forest&#34;&gt;What is Robot Forest?&lt;/h2&gt;&#xA;&lt;p&gt;Robot Forest is both a consulting practice and a knowledge-sharing platform. We&amp;rsquo;re passionate about helping organizations successfully implement robotics and IoT solutions while sharing insights from the field with the broader community.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Through this blog, we&amp;rsquo;ll be sharing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical deep-dives&lt;/strong&gt; into robotics and IoT architectures&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry analysis&lt;/strong&gt; of emerging trends and technologies&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Practical guides&lt;/strong&gt; for implementing automation systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Case studies&lt;/strong&gt; from real-world deployments&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best practices&lt;/strong&gt; for building reliable, scalable systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-robotics-revolution&#34;&gt;The Robotics Revolution&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;re living through an incredible transformation. Advances in sensors, edge computing, machine learning, and connectivity are making robotics more accessible and capable than ever before. From industrial automation to service robots, from smart agriculture to autonomous vehicles, the applications are limitless.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

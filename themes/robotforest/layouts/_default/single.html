@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<article class="article-single">
+    <div class="container">
+        <header class="article-header">
+            <div class="article-meta">
+                <time class="article-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+                {{ if .Params.tags }}
+                    <span class="meta-separator">•</span>
+                    <div class="article-tags">
+                        {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="article-tag">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+            
+            <h1 class="article-title">{{ .Title }}</h1>
+            
+            {{ if .Description }}
+                <p class="article-description">{{ .Description }}</p>
+            {{ end }}
+            
+            {{ if .Params.featured_image }}
+                <div class="article-featured-image">
+                    <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+                </div>
+            {{ end }}
+        </header>
+        
+        <div class="article-content">
+            {{ .Content }}
+        </div>
+        
+        {{ if or .PrevInSection .NextInSection }}
+        <nav class="article-navigation">
+            {{ if .PrevInSection }}
+                <a href="{{ .PrevInSection.Permalink }}" class="article-nav-link prev">
+                    <span class="nav-label">← Previous</span>
+                    <span class="nav-title">{{ .PrevInSection.Title }}</span>
+                </a>
+            {{ end }}
+            {{ if .NextInSection }}
+                <a href="{{ .NextInSection.Permalink }}" class="article-nav-link next">
+                    <span class="nav-label">Next →</span>
+                    <span class="nav-title">{{ .NextInSection.Title }}</span>
+                </a>
+            {{ end }}
+        </nav>
+        {{ end }}
+    </div>
+</article>
+
+{{ end }}
+

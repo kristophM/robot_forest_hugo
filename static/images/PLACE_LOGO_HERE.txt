@@ -1,0 +1,26 @@
+📸 LOGO PLACEMENT
+
+Place your Robot Forest logo here as: logo.png
+
+The logo you showed me (the minimalist gray "forest" pattern with the geometric 
+stacked lines forming a mountain/forest shape) should be saved as:
+
+    logo.png
+
+Requirements:
+- Filename: logo.png (exactly)
+- Format: PNG with transparency preferred
+- Recommended size: 120-150px height (width proportional)
+- Max file size: < 100KB (optimize if needed)
+
+The theme is already configured to display this logo in the header navigation.
+
+If you use a different filename or format, update this line in hugo.toml:
+    logo = '/images/your-logo-filename.png'
+
+---
+
+Tip: You can also place blog post images here and reference them in your 
+post front matter as:
+    featured_image: "/images/post-image.jpg"
+

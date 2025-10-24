@@ -1,0 +1,13 @@
+name = "Robot Forest"
+license = "MIT"
+licenselink = "https://github.com/yourusername/robotforest-theme/blob/main/LICENSE"
+description = "A modern, minimalistic dark theme for robotics and IoT blogs"
+homepage = "https://robotforest.io"
+tags = ["blog", "dark", "modern", "minimalist", "robotics", "iot"]
+features = ["blog", "responsive", "dark mode"]
+min_version = "0.100.0"
+
+[author]
+  name = "Robot Forest"
+  homepage = "https://robotforest.io"
+
