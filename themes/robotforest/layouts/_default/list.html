@@ -9,6 +9,12 @@
             {{ end }}
         </header>
         
+        {{ if .Content }}
+        <div class="page-content">
+            {{ .Content }}
+        </div>
+        {{ end }}
+        
         <div class="posts-list">
             {{ range .Pages }}
                 <article class="post-item">

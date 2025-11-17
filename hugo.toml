@@ -7,13 +7,13 @@ theme = 'robotforest'
 pagerSize = 10
 
 [params]
-description = 'Consulting and Fractional CTO Help for the "IT side of Robotics"'
+description = 'Consulting and Fractional CTO Help for Robotics Ops and Scaling'
 logo = '/images/logo.png'
 
 # Hero section configuration
 [params.hero]
 title = 'Consulting and Fractional CTO Help for Robotics'
-subtitle = 'Focus on the actual robotics development. We focus on everything else: AI/ML ops | Data Engineering at the Edge | Cybersecurity & Compliance | Devops/SRE | Startup scaling challenges'
+subtitle = 'I help robotics companies scale from prototype to fleet by building the infrastructure around autonomy—observability, data pipelines, MLOps, and secure OTA.'
 xsubtitle = 'Professional consulting and thought leadership in robotics, intelligent automation, and connected systems.'
 
 # Newsletter configuration

@@ -3,8 +3,6 @@ title: "Consulting Services"
 description: "Professional consulting services for robotics and IoT projects"
 ---
 
-# Consulting Services
-
 Robot Forest offers expert consulting services to help you succeed with your robotics and IoT initiatives. Whether you're just starting or scaling existing systems, we provide the strategic and technical guidance you need.
 
 ## Services

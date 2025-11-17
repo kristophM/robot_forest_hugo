@@ -3,8 +3,6 @@ title: "Contact Us"
 description: "Get in touch with Robot Forest for consulting inquiries and collaboration opportunities"
 ---
 
-# Contact Us
-
 We'd love to hear from you! Whether you have a project in mind, need technical guidance, or just want to connect, feel free to reach out.
 
 ## Get In Touch

@@ -226,7 +226,7 @@ pre code {
 
 /* === Hero Section === */
 .hero {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-lg) 0;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -267,6 +267,21 @@ pre code {
     line-height: 1.1;
     margin-bottom: var(--spacing-md);
     letter-spacing: -0.03em;
+}
+
+.hero-avatar {
+    margin: var(--spacing-md) 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-avatar-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .hero-subtitle {
@@ -686,6 +701,87 @@ pre code {
 .page-description {
     font-size: 1.25rem;
     color: var(--color-text-secondary);
+}
+
+.page-content {
+    max-width: var(--max-width-narrow);
+    margin: var(--spacing-xl) auto;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+}
+
+.page-content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.03em;
+}
+
+.page-content h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -0.02em;
+}
+
+.page-content h3 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -0.01em;
+}
+
+.page-content h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+}
+
+.page-content p {
+    margin-bottom: var(--spacing-md);
+}
+
+.page-content ul,
+.page-content ol {
+    margin-bottom: var(--spacing-md);
+    padding-left: 1.5rem;
+    color: var(--color-text-secondary);
+}
+
+.page-content li {
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.7;
+}
+
+.page-content a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: var(--color-border);
+    transition: text-decoration-color var(--transition);
+}
+
+.page-content a:hover {
+    text-decoration-color: var(--color-text);
+}
+
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin: var(--spacing-md) 0;
+}
+
+.page-content blockquote {
+    border-left: 2px solid var(--color-border);
+    padding-left: var(--spacing-md);
+    margin: var(--spacing-md) 0;
+    color: var(--color-text-secondary);
+    font-style: italic;
 }
 
 .posts-list {
