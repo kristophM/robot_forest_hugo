@@ -13,46 +13,63 @@ on robotics gave birth to "Robot Forest"!
 
 I approach problems with a business mindset but dive into deep tech as needed. This means working end to end from defining business objectives to actually designing and implementing scalable platforms and products. I tend to focus on the following areas but the list continues to expand. 
 
-TODO: Consider making this a grid
+<div class="services-grid">
 
-### Fleet Reliability & Observability (Robot Ops/SRE)
-SRE adapted to robots—SLIs/SLOs that actually reflect autonomy performance, uptime, and field reliability.
+<div class="service-card">
+<h3>Fleet Reliability & Observability (Robot Ops/SRE)</h3>
+<p>SRE adapted to robots—SLIs/SLOs that actually reflect autonomy performance, uptime, and field reliability.</p>
+<ul>
+<li>Define SLIs: perception FPS, localization confidence, loop closure rate, planner latency, DDS packet loss, OTA success rate.</li>
+<li>Trace edge‑to‑cloud paths; distributed tracing across ROS nodes + cloud services.</li>
+<li>Incident response for robots (IR playbooks, postmortems, RCAs) and on‑call design.</li>
+<li>Synthetic data/inputs for health checks (e.g., "sensor stubs" for field smoke tests).</li>
+</ul>
+</div>
 
-* Define SLIs: perception FPS, localization confidence, loop closure rate, planner latency, DDS packet loss, OTA success rate.
-* Trace edge‑to‑cloud paths; distributed tracing across ROS nodes + cloud services.
-* Incident response for robots (IR playbooks, postmortems, RCAs) and on‑call design.
-* Synthetic data/inputs for health checks (e.g., “sensor stubs” for field smoke tests).
+<div class="service-card">
+<h3>Edge‑Cloud Data Engineering for Robots</h3>
+<p>Architect and operate event/log/telemetry/vision pipelines from vehicles to cloud: hot path (ops) and cold path (training/analytics).</p>
+<ul>
+<li>Unified telemetry schema (time-series + events + blob/video) with governance.</li>
+<li>Hot vs. cold data path blueprint: streaming (Kafka/Redpanda), object storage layouts, parquet/iceberg for ML.</li>
+<li>Smart uplink strategies: on‑edge filtering, prioritization, compression, GDPR/PII guards.</li>
+<li>Data lineage and model/data versioning integrations (DVC/MLflow/LakeFS).</li>
+</ul>
+</div>
 
-### Edge‑Cloud Data Engineering for Robots
-Architect and operate event/log/telemetry/vision pipelines from vehicles to cloud: hot path (ops) and cold path (training/analytics).
+<div class="service-card">
+<h3>Embodied MLOps (From Lab to Fleet)</h3>
+<p>Productionize perception/planning models on robots: dataset operations, drift detection, staged rollout, shadow testing, rollback.</p>
+<ul>
+<li>Dataset pipelines (ingest → curate → label → QA → version → training).</li>
+<li>On‑device inferencing pipelines (TensorRT/OpenVINO) with feature flags and AB tests.</li>
+<li>Drift/outlier detection and auto-recall of edge samples for re-training.</li>
+<li>Shadow/ghost mode deployments + kill switches + rollout policies.</li>
+</ul>
+</div>
 
-* Unified telemetry schema (time-series + events + blob/video) with governance.
-* Hot vs. cold data path blueprint: streaming (Kafka/Redpanda), object storage layouts, parquet/iceberg for ML.
-* Smart uplink strategies: on‑edge filtering, prioritization, compression, GDPR/PII guards.
-* Data lineage and model/data versioning integrations (DVC/MLflow/LakeFS).
+<div class="service-card">
+<h3>Secure Robotics & Supply Chain</h3>
+<p>Zero Trust for fleets, secure boot, SBOMs, cert rotation, SROS2, OTA hardening, vendor risk, and SOC 2/ISO 27001 alignment.</p>
+<ul>
+<li>Secure comms: mTLS in ROS graph/DDs bridges, cert lifecycle, network segmentation.</li>
+<li>Firmware/OS hardening, secure boot, TPM/TEE, disk encryption, secrets mgmt at the edge.</li>
+<li>Supply chain: SBOM/attestations (SLSA), dependency policies, vuln mgmt & patch SLAs.</li>
+<li>SOC 2 early readiness: policies + logging + control mapping tailored to robotics.</li>
+</ul>
+</div>
 
-### Embodied MLOps (From Lab to Fleet)
-Productionize perception/planning models on robots: dataset operations, drift detection, staged rollout, shadow testing, rollback.
+<div class="service-card">
+<h3>Team & Process Scaling for Robotics Orgs</h3>
+<p>Org design, hiring pipelines, role charters (platform engineer for robotics, RobOps SRE), on‑call, incident command, tech council.</p>
+<ul>
+<li>Define swimlanes: autonomy vs platform vs ops; interfaces and SLAs.</li>
+<li>On‑call rotations for fleets; incident command & postmortem culture.</li>
+<li>Interview rubrics, trial projects, and onboarding playbooks specific to robotics.</li>
+</ul>
+</div>
 
-* Dataset pipelines (ingest → curate → label → QA → version → training).
-* On‑device inferencing pipelines (TensorRT/OpenVINO) with feature flags and AB tests.
-* Drift/outlier detection and auto-recall of edge samples for re-training.
-* Shadow/ghost mode deployments + kill switches + rollout policies.
-
-### Secure Robotics & Supply Chain
-Zero Trust for fleets, secure boot, SBOMs, cert rotation, SROS2, OTA hardening, vendor risk, and SOC 2/ISO 27001 alignment.
-
-* Secure comms: mTLS in ROS graph/DDs bridges, cert lifecycle, network segmentation.
-* Firmware/OS hardening, secure boot, TPM/TEE, disk encryption, secrets mgmt at the edge.
-* Supply chain: SBOM/attestations (SLSA), dependency policies, vuln mgmt & patch SLAs.
-* SOC 2 early readiness: policies + logging + control mapping tailored to robotics.
-
-### Team & Process Scaling for Robotics Orgs
-Org design, hiring pipelines, role charters (platform engineer for robotics, RobOps SRE), on‑call, incident command, tech council.
-
-* Define swimlanes: autonomy vs platform vs ops; interfaces and SLAs.
-* On‑call rotations for fleets; incident command & postmortem culture.
-* Interview rubrics, trial projects, and onboarding playbooks specific to robotics.
+</div>
 
 # TODO: Where does this photo go? 
 

@@ -6,6 +6,9 @@ theme = 'robotforest'
 [pagination]
 pagerSize = 10
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 description = 'Consulting and Fractional CTO Help for Robotics Ops and Scaling'
 logo = '/images/logo.png'
