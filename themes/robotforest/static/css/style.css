@@ -785,6 +785,20 @@ pre code {
     margin: var(--spacing-md) 0;
 }
 
+.about-image {
+    max-width: 75%;
+    /* margin: var(--spacing-md) auto; */
+    /* text-align: center; */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    display: block;
+    /* margin: 0 auto; */
+}
+
 .page-content blockquote {
     border-left: 2px solid var(--color-border);
     padding-left: var(--spacing-md);
@@ -1125,6 +1139,11 @@ pre code {
     .container {
         padding: 0 var(--spacing-sm);
     }
+    
+    .about-image {
+        max-width: 100%;
+    }
+}
     
     .hero {
         padding: var(--spacing-lg) 0;

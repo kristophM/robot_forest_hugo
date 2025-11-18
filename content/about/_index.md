@@ -1,13 +1,14 @@
 ---
 title: "About Robot Forest"
-description: "Robot Forest is a consulting service and blog focused on robotics, IoT, and intelligent automation systems."
----
+description: "Welcome! My name is Kristoph Matthews and I'm an engineer, consulting CTO, and founder focused on the operational and infrastructure side of robotics: DevOps, SecOps, ML Ops, Data Engineering, Cloud networking etc."
+--- 
 
-## Why _"Robot 'Forest'"?_ 
-
-I spent time in my career as a machine learning (ML) engineer and came across an algorithm for classification called "Random Forest."
-I was always impressed by its role in intelligent decision making. This, combined with living near a forest and working 
-on robotics gave birth to "Robot Forest"!
+<div class="about-image">
+<img src="/images/kristoph_full.jpg" alt="Kristoph Matthews">
+</div>
+<blockquote>
+<p>Me thinking about the latest hyped AI technology!</p>
+</blockquote>
 
 ## What I Do
 
@@ -71,11 +72,6 @@ I approach problems with a business mindset but dive into deep tech as needed. T
 
 </div>
 
-# TODO: Where does this photo go? 
-
-![Kristoph Matthews](/images/kristoph_full.jpg)
->Me thinking about the latest hyped AI technology!
-
 ## Get in Touch
 
 Interested in working together? [Contact me](/contact/) to discuss your project.
@@ -119,4 +115,9 @@ TODO: Modify these to be more robotics specific
 I'm always happy to chat about new opportunities, consulting, ideas, or just have a coffee and chat!
 Shoot me an email anytime at [kristoph (at) robotforest.io](mailto:kristoph@robotforest.io) or connect on [LinkedIn](https://www.linkedin.com/in/kristophermatthews/).
 
+## By the way, why _"Robot 'Forest'"?_ 
+
+I spent time in my career as a machine learning (ML) engineer and came across an algorithm for classification called "Random Forest."
+I was always impressed by its role in intelligent decision making. This, combined with living near a forest and working 
+on robotics gave birth to "Robot Forest"!
 
