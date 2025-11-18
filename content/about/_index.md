@@ -80,7 +80,12 @@ Interested in working together? [Contact me](/contact/) to discuss your project.
 
 I've built and led organisations for over 20 years in tech, starting from the hardware side of Silicon Valley to building software orgs from the ground up in a wide range of industries/tech (logistics, defence, drones, big-data, gen AI/ML, etc.). I've held roles from engineer to CTO and have seen the good, bad, and the ugly of building technology systems and teams.
 
-TODO: Put logos of Northrop, NASA, Fraunhofer Institute, Cornell CNF
+<div class="logos-row">
+<img src="/images/northropgrumman_logo.png" alt="Northrop Grumman" class="logo-img">
+<img src="/images/fraunhofer_logo.png" alt="Fraunhofer Institute" class="logo-img">
+<img src="/images/cornell_cnf_logo.png" alt="Cornell CNF" class="logo-img">
+<img src="/images/nasa_logo.jpeg" alt="NASA" class="logo-img">
+</div>
 
 **Education**
 - B.S. University of California, Berkeley

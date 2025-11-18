@@ -799,6 +799,31 @@ pre code {
     /* margin: 0 auto; */
 }
 
+/* === Logos Row === */
+.logos-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--spacing-md);
+    align-items: center;
+    justify-content: flex-start;
+    margin: var(--spacing-lg) 0;
+}
+
+.logos-row .logo-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity var(--transition);
+    background-color: white;
+    padding: 4px;
+    margin: var(--spacing-sm) 0;
+}
+
+.logos-row .logo-img:hover {
+    opacity: 1;
+}
+
 .page-content blockquote {
     border-left: 2px solid var(--color-border);
     padding-left: var(--spacing-md);
@@ -1143,7 +1168,6 @@ pre code {
     .about-image {
         max-width: 100%;
     }
-}
     
     .hero {
         padding: var(--spacing-lg) 0;
