@@ -1,69 +1,73 @@
 ---
 title: "About Robot Forest"
-description: "Learn about Robot Forest and our mission to advance robotics and IoT innovation"
+description: "Robot Forest is a consulting service and blog focused on robotics, IoT, and intelligent automation systems."
 ---
 
-Robot Forest is a consulting and thought leadership platform focused on robotics, IoT, and intelligent automation systems. We help organizations navigate the complex landscape of modern robotics and connected devices.
+## Why _"Robot 'Forest'"?_ 
 
-## Our Mission
+I spent time in my career as a machine learning (ML) engineer and came across an algorithm for classification called "Random Forest."
+I was always impressed by its role in intelligent decision making. This, combined with living near a forest and working 
+on robotics gave birth to "Robot Forest"!
 
-To empower businesses and technologists with the knowledge and tools needed to successfully implement robotics and IoT solutions that drive real value.
+## What I Do
 
-## What We Do
+I approach problems with a business mindset but dive into deep tech as needed. This means working end to end from defining business objectives to actually designing and implementing scalable platforms and products. I tend to focus on the following areas but the list continues to expand. 
 
-- **Consulting**: Strategic guidance on robotics and IoT implementations
-- **Technical Leadership**: Expert architecture and system design
-- **Research & Analysis**: In-depth exploration of emerging technologies
-- **Education**: Sharing knowledge through our blog and resources
+TODO: Consider making this a grid
 
-## Expertise
+### Fleet Reliability & Observability (Robot Ops/SRE)
+SRE adapted to robots—SLIs/SLOs that actually reflect autonomy performance, uptime, and field reliability.
 
-Our expertise spans across:
+* Define SLIs: perception FPS, localization confidence, loop closure rate, planner latency, DDS packet loss, OTA success rate.
+* Trace edge‑to‑cloud paths; distributed tracing across ROS nodes + cloud services.
+* Incident response for robots (IR playbooks, postmortems, RCAs) and on‑call design.
+* Synthetic data/inputs for health checks (e.g., “sensor stubs” for field smoke tests).
 
-- Industrial robotics and automation
-- Edge computing and IoT architectures
-- Sensor integration and data processing
-- Machine learning for robotics
-- Connected device security
-- System integration and deployment
+### Edge‑Cloud Data Engineering for Robots
+Architect and operate event/log/telemetry/vision pipelines from vehicles to cloud: hot path (ops) and cold path (training/analytics).
 
-## Get in Touch
+* Unified telemetry schema (time-series + events + blob/video) with governance.
+* Hot vs. cold data path blueprint: streaming (Kafka/Redpanda), object storage layouts, parquet/iceberg for ML.
+* Smart uplink strategies: on‑edge filtering, prioritization, compression, GDPR/PII guards.
+* Data lineage and model/data versioning integrations (DVC/MLflow/LakeFS).
 
-Interested in working together? [Contact us](/contact/) to discuss your project.
+### Embodied MLOps (From Lab to Fleet)
+Productionize perception/planning models on robots: dataset operations, drift detection, staged rollout, shadow testing, rollback.
 
+* Dataset pipelines (ingest → curate → label → QA → version → training).
+* On‑device inferencing pipelines (TensorRT/OpenVINO) with feature flags and AB tests.
+* Drift/outlier detection and auto-recall of edge samples for re-training.
+* Shadow/ghost mode deployments + kill switches + rollout policies.
+
+### Secure Robotics & Supply Chain
+Zero Trust for fleets, secure boot, SBOMs, cert rotation, SROS2, OTA hardening, vendor risk, and SOC 2/ISO 27001 alignment.
+
+* Secure comms: mTLS in ROS graph/DDs bridges, cert lifecycle, network segmentation.
+* Firmware/OS hardening, secure boot, TPM/TEE, disk encryption, secrets mgmt at the edge.
+* Supply chain: SBOM/attestations (SLSA), dependency policies, vuln mgmt & patch SLAs.
+* SOC 2 early readiness: policies + logging + control mapping tailored to robotics.
+
+### Team & Process Scaling for Robotics Orgs
+Org design, hiring pipelines, role charters (platform engineer for robotics, RobOps SRE), on‑call, incident command, tech council.
+
+* Define swimlanes: autonomy vs platform vs ops; interfaces and SLAs.
+* On‑call rotations for fleets; incident command & postmortem culture.
+* Interview rubrics, trial projects, and onboarding playbooks specific to robotics.
+
+# TODO: Where does this photo go? 
 
 ![Kristoph Matthews](/images/kristoph_full.jpg)
 >Me thinking about the latest hyped AI technology!
 
-I'm a CTO with a focus on early stage, mission-driven startups. I've worked for over 15 years in tech, starting from the hardware side of Silicon Valley to building software orgs from the ground up in a wide range of industries/tech (SaaS, crypto, logistics, mobile, e-commerce, defence, big-data, gen AI/ML, etc.). I've held roles from engineer to CTO and have seen the good, bad, and the ugly of building technology systems and orgs.
+## Get in Touch
 
-## What I do
+Interested in working together? [Contact me](/contact/) to discuss your project.
 
-I help non-technical, mission-driven founders build their first product, hire their core engineering team, and establish a scalable technical foundation. I help companies optimise for their business goals while building secure, scalable, and resilient systems. I approach problems with a business mindset but dive into deep tech as needed. This means working end to end from defining business objectives to actually designing and implementing scalable platforms and products. 
+## Experience
 
-Examples:
-- "0 to 1" MVP: Taking an idea and building the initial product, with market validation of features to hit product market fit
-- Identify needs and build out core team with a strong cultural and technological foundation that can scale
-- Implement scalable infrastructure and process for continuous deployment (CI/CD), project and performance management, and more
-- Harden security and privacy controls to meet regulatory compliance requirements and audit standards in a remote/global workforce environment (GDPR, ISO, SOC2, etc.)
-- Select the best platforms and cloud products to meet business objectives, minimise costs, and reduce risk (e.g. data warehouse and serverless product selection on Google, AWS, Azure, etc.)
-- ...and more!
+I've built and led organisations for over 20 years in tech, starting from the hardware side of Silicon Valley to building software orgs from the ground up in a wide range of industries/tech (logistics, defence, drones, big-data, gen AI/ML, etc.). I've held roles from engineer to CTO and have seen the good, bad, and the ugly of building technology systems and teams.
 
-## What I've done lately
-
-Check out my [LinkedIn](https://www.linkedin.com/in/kristophermatthews/) for more details.
-
-|  |  |
-|------|---------|
-| Arcpoint AI | Founding CTO |
-| NewtonX | CTO, Data Protection Officer, Security Officer |
-| DCPMe | CTO/founder |
-| JPG Quarterly | CTO |
-| Consultant | Software and security architect and engineer |
-| Boxbee | CTO/founder |
-| Group4 Labs | Engineer |
-| Northrop Grumman | Engineer |
-| NASA | Research associate |
+TODO: Put logos of Northrop, NASA, Fraunhofer Institute, Cornell CNF
 
 **Education**
 - B.S. University of California, Berkeley
@@ -71,11 +75,13 @@ Check out my [LinkedIn](https://www.linkedin.com/in/kristophermatthews/) for mor
 
 ## Skills/Frameworks/Certifications/Things I enjoy working with!
 
+TODO: Modify these to be more robotics specific
+
 - **Clouds**: Google Cloud, AWS, Cloudflare, Akamai, private clouds
 - **Security/Privacy Frameworks**: OWASP, ISO, SOC2, GDPR, etc.
 - **Networking**: Load balancing, Firewalls, DNS, CDN, etc.
 - **SecOps**: Zero Trust, CASB, DLP, etc.
-- **Programming**: Rust, Python, Go, Typescript, Bash, etc.
+- **Programming**: Rust, Python, Go, C++, ROS2, Bash, etc.
 - **DevOps**: CI/CD, Docker, Kubernetes, Helm, Terraform,  etc.
 - **AI/ML**: Vertex AI, AWS Sagemaker, LLMs, RAG, etc.
 - **Data**: BigQuery, Elasticsearch, Postgres, Pinot, etc.
@@ -94,6 +100,6 @@ Check out my [LinkedIn](https://www.linkedin.com/in/kristophermatthews/) for mor
 ## How to work with me
 
 I'm always happy to chat about new opportunities, consulting, ideas, or just have a coffee and chat!
-Shoot me an email anytime at [k (at) kristophmatthews.com](mailto:k@kristophmatthews.com) or connect on [LinkedIn](https://www.linkedin.com/in/kristophermatthews/).
+Shoot me an email anytime at [kristoph (at) robotforest.io](mailto:kristoph@robotforest.io) or connect on [LinkedIn](https://www.linkedin.com/in/kristophermatthews/).
 
 
