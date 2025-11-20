@@ -6,9 +6,9 @@ description: "Welcome! My name is Kristoph Matthews and I'm an engineer, consult
 <div class="about-image">
 <img src="/images/kristoph_full.jpg" alt="Kristoph Matthews">
 </div>
-<blockquote>
+<!-- <blockquote>
 <p>Me thinking about the latest hyped AI technology!</p>
-</blockquote>
+</blockquote> -->
 
 ## What I Do
 
@@ -45,7 +45,7 @@ I approach problems with a business mindset but dive into deep tech as needed. T
 <li>Dataset pipelines (ingest → curate → label → QA → version → training).</li>
 <li>On‑device inferencing pipelines (TensorRT/OpenVINO) with feature flags and AB tests.</li>
 <li>Drift/outlier detection and auto-recall of edge samples for re-training.</li>
-<li>Shadow/ghost mode deployments + kill switches + rollout policies.</li>
+<!-- <li>Shadow/ghost mode deployments + kill switches + rollout policies.</li> -->
 </ul>
 </div>
 
@@ -93,16 +93,14 @@ I've built and led organisations for over 20 years in tech, starting from the ha
 
 ## Skills/Frameworks/Certifications/Things I enjoy working with!
 
-TODO: Modify these to be more robotics specific
-
 - **Clouds**: Google Cloud, AWS, Cloudflare, Akamai, private clouds
 - **Security/Privacy Frameworks**: OWASP, ISO, SOC2, GDPR, etc.
 - **Networking**: Load balancing, Firewalls, DNS, CDN, etc.
 - **SecOps**: Zero Trust, CASB, DLP, etc.
 - **Programming**: Rust, Python, Go, C++, ROS2, Bash, etc.
 - **DevOps**: CI/CD, Docker, Kubernetes, Helm, Terraform,  etc.
-- **AI/ML**: Vertex AI, AWS Sagemaker, LLMs, RAG, etc.
-- **Data**: BigQuery, Elasticsearch, Postgres, Pinot, etc.
+- **AI/ML/Data Engineering**: Vertex AI, LLM agents, RAG, ML Ops and fine tuning, Open CV, Apache Beam/Dataflow, ETL
+- **Data**: BigQuery, Elasticsearch/ELK, Postgres, Pinot, etc.
 - **Containers**: Docker, Kubernetes, Helm, etc.
 - **Other**: IoT, ebedded systems programming, low level GPU programming
 
@@ -113,7 +111,7 @@ TODO: Modify these to be more robotics specific
 * Designing high performance, scalable, and resilient systems
 * Keeping costs lean and mean
 * Clear communication with no bullshit and no ego
-* Working with people who care about what they're building and have at least some sense of humour!
+* Working with people who care about what they're building and have a sense of humour!
 
 ## How to work with me
 

@@ -1,6 +1,6 @@
 name = "Robot Forest"
 license = "MIT"
-licenselink = "https://github.com/yourusername/robotforest-theme/blob/main/LICENSE"
+licenselink = "https://github.com/kristophM/robotforest-theme/blob/main/LICENSE"
 description = "A modern, minimalistic dark theme for robotics and IoT blogs"
 homepage = "https://robotforest.io"
 tags = ["blog", "dark", "modern", "minimalist", "robotics", "iot"]

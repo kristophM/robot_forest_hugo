@@ -17,7 +17,7 @@ A modern, minimalistic dark theme for Hugo, designed for robotics and IoT blogs 
 1. Add the theme to your Hugo site:
 ```bash
 cd your-hugo-site
-git clone https://github.com/yourusername/robotforest-theme.git themes/robotforest
+git clone https://github.com/kristophM/robotforest-theme.git themes/robotforest
 ```
 
 2. Update your `hugo.toml` to use the theme:
@@ -52,12 +52,12 @@ action = 'https://YOUR_NEWSLETTER_SERVICE_URL'
 [[params.social]]
 name = 'GitHub'
 icon = 'github'
-url = 'https://github.com/yourusername'
+url = 'https://github.com/kristophM'
 
 [[params.social]]
 name = 'LinkedIn'
 icon = 'linkedin'
-url = 'https://linkedin.com/in/yourusername'
+url = 'https://linkedin.com/in/kristophermatthews'
 ```
 
 ### Menu Configuration

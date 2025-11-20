@@ -16,7 +16,7 @@ logo = '/images/logo.png'
 # Hero section configuration
 [params.hero]
 title = 'Consulting and Fractional CTO Help for Robotics'
-subtitle = 'Hi! My name is Kristoph Matthews. I help robotics companies scale from prototype to fleet by building the infrastructure around autonomy—observability, data pipelines, MLOps, and secure OTA.'
+subtitle = 'Hi! My name is Kristoph Matthews. I help robotics companies scale from prototype to fleet by building the infra around autonomy—observability, data pipelines, MLOps, and security.'
 xsubtitle = 'Professional consulting and thought leadership in robotics, intelligent automation, and connected systems.'
 
 # Newsletter configuration
@@ -30,17 +30,17 @@ action = 'https://YOUR_NEWSLETTER_SERVICE_URL'
 [[params.social]]
 name = 'GitHub'
 icon = 'github'
-url = 'https://github.com/yourusername'
+url = 'https://github.com/kristophM'
 
 [[params.social]]
 name = 'LinkedIn'
 icon = 'linkedin'
-url = 'https://linkedin.com/in/yourusername'
+url = 'https://linkedin.com/in/kristophermatthews'
 
 [[params.social]]
 name = 'Twitter'
 icon = 'twitter'
-url = 'https://twitter.com/yourusername'
+url = 'https://twitter.com/kristophM'
 
 [[params.social]]
 name = 'Email'

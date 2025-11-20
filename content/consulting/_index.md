@@ -1,50 +1,36 @@
 ---
-title: "Consulting Services"
-description: "Professional consulting services for robotics and IoT projects"
+title: "Consulting"
+description: "Engineering consulting and fractional CTO help for robotics and IoT companies"
 ---
 
-Robot Forest offers expert consulting services to help you succeed with your robotics and IoT initiatives. Whether you're just starting or scaling existing systems, we provide the strategic and technical guidance you need.
+## Who This Is For
 
-## Services
+Robotics teams excel at autonomy. But scaling from prototype to production requires more than ROS programming—it demands robust infrastructure, secure operations, and data systems that work in the real world.
+I work with:
 
-### Strategic Planning
+* **Startups** moving from MVP to first deployments.
+* **Mid-sized robotics companies** scaling fleets and preparing for commercialisation.
 
-- Technology assessment and roadmap development
-- Architecture design and system planning
-- Vendor evaluation and selection
-- Risk analysis and mitigation strategies
+Whether you need help building out your team and processes or deep technical implementation, I’m there, acting as a strategic partner and also rolling up my sleeves to build when needed.
 
-### Technical Implementation
+### Some ways I've helped companies at different scales
 
-- System design and integration
-- Proof of concept development
-- Performance optimization
-- Security and compliance review
+* **Seed → Series A:** CI/CD blueprint, OTA basics, observability MVP, security baseline.
+* **Series B:** MLOps v1, fleet orchestration, SimOps, SOC2 readiness.
+* **Series C+:** Cost/performance optimization, vendor selection/implementation, cross-region scaling.
 
-### Team Enablement
+## Engagement Model
+Every company is different, which is why I work with varying models depending on what best sets us up for success. 
+Some examples include:
 
-- Technical training and workshops
-- Best practices guidance
-- Code reviews and architecture audits
-- Ongoing technical advisory
+* Retainer: Ongoing advisory and implementation.
+* Fractional CTO: Strategic leadership + hands-on execution.
+* Project-Based: Fixed-scope sprints for high-impact outcomes.
 
-## Industries We Serve
-
-- Manufacturing and industrial automation
-- Logistics and supply chain
-- Agriculture and environmental monitoring
-- Healthcare and medical devices
-- Smart buildings and infrastructure
-
-## Engagement Models
-
-We offer flexible engagement models to match your needs:
-
-- **Project-based**: Fixed scope deliverables
-- **Retainer**: Ongoing advisory and support
-- **Hourly**: As-needed technical consultation
+We start with a discovery Session to identify what will drive the most impact.
+No project is too small—whether it’s hardening OTA or architecting your data pipeline.
 
 ## Let's Work Together
 
-Ready to discuss your project? [Contact us](/contact/) to schedule a consultation.
+Ready to discuss your project? [Contact me](/contact/) to schedule a call.
 
